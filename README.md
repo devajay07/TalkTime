@@ -8,3 +8,4 @@ A peer to peer WebRTC application with inbuilt filters
 ```javascript
 let APP_ID = "YOU-APP-ID"
 ```
+<img src="./images/example.PNG">

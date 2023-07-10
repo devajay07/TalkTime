@@ -8,27 +8,27 @@
     <link rel='stylesheet' type='text/css' media='screen' href='lobby.css'>
 </head>
 <body>
-
     <h1 class="brand">TalkTime 👀</h1>
-    
+    <h2>&lt;Peer to Peer&gt;</h2>
     <main id="lobby-container">
         <div id="form-container">
             <div id="form__container__header">
-                <p>👋 Create OR Join a Room</p>
+                <p>👋 Create Or Join a Room</p>
             </div>
 
             <div id="form__content__wrapper">
                 <form id="join-form">
-                    <input type="text" name="invite_link" required/>
+                    <input type="text" placeholder="Enter Room Id 🦧" name="invite_link" required/>
                     <input type="submit" value="Join Room" />
                 </form>
             </div>
         </div>
     </main>
-
-
-
 </body>
+   <footer>
+        <img src="./icons/github-mark.png">
+        <a target="_blank" href="https://github.com/devajay07/TalkTime">See the Code on Github</a>
+     </footer>
 
 <script>
     let form = document.getElementById('join-form')
